@@ -1,3 +1,4 @@
+
 // Dark Mode Toggle Functionality
 const darkModeToggle = document.getElementById('darkModeToggle');
 const body = document.body;
@@ -9,7 +10,7 @@ darkModeToggle.addEventListener('click', () => {
 const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': '904a6335dcmsh5d73d9901cdce4fp19adf4jsn476980add346',
+        'X-RapidAPI-Key': API_KEY,
         'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
     }
 };
